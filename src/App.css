@@ -1,38 +1,189 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    line-height: 1.6;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #8b4513;
   }
-  to {
-    transform: rotate(360deg);
+  
+  a {
+    text-decoration: none;
+    color: #8b4513;
   }
-}
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Navigation Styles */
+  nav {
+    background-color: #fff;
+    border-bottom: 1px solid #e7e7e7;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .nav-brand {
+    display: inline-block;
+  }
+  
+  .nav-brand h1 {
+    margin: 0;
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 1.8em;
+    color: #8b4513;
+  }
+  
+  nav ul {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  nav li {
+    display: inline-block;
+    line-height: 20px;
+    margin: 0 5px;
+  }
+  
+  nav a {
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+  }
+
+  a.active,a:hover{
+    background-color: #8b4513;
+    color: #fff;
+  }
+
+  .checkbtn{
+    font-size: 30px;
+    color: #8b4513;
+    float: right;
+    margin-right: 40px;
+    line-height: 80px;
+    cursor: pointer;
+    display: none;
+  }
+
+  #check{
+    display: none;
+  }
+  
+  /* Footer Styles */
+  footer {
+    background-color: #8b4513;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.9em;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    padding: 10px;
+    min-width: 200px;
+  }
+  
+  .footer-section h4 {
+    margin-top: 0;
+    color: #fff;
+  }
+  
+  .social-media {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .social-media li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .social-media a {
+    color: #fff;
+  }
+  
+  social-media a:hover {
+    color: #ffd700;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Home Page Styles */
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 2.5em;
+  }
+  
+  video {
+    display: block;
+  width: 90%;
+  max-width: 100%;
+  height: auto;
+  margin: 20px auto;
+  border-radius: 8px;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 1.2em;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .pastry-of-the-week {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+  }
+  
+  .pastry-of-the-week img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  button {
+    display: block;
+    background-color: #8b4513;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 20px auto;
+  }
+  
+  button a {
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #6f370d;
+  }
+  
