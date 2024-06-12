@@ -9,7 +9,7 @@ const HomePage = () => (
     </video>
     <p>Step into Hlogi’s Confectioneries, where we delight in crafting an array of delectable pastries using the finest ingredients and a generous sprinkle of love.</p>
     <div className="pastry-of-the-week">
-      <img src="path_to_pastry_of_the_week_image.jpg" alt="Pastry of the Week" />
+      <img src="path_to_past.jpg" alt="Pastry of the Week" />
       <p>Introducing our Pastry of the Week—a tantalizing delight you won’t want to overlook!</p>
     </div>
     <p>Discover our menu by clicking the button below:</p>
