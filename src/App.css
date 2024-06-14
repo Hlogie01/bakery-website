@@ -39,7 +39,7 @@ a:hover {
 
 /* Navigation Styles */
 nav {
-  background-color: #fff;
+  background-color: #f7efe1;
   border-bottom: 1px solid #e7e7e7;
   padding: 10px 20px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -220,4 +220,97 @@ p {
   font-size: 1.2em;
   margin: 20px auto;
   max-width: 800px;
+}
+
+/* MenuPage Styles */
+.menu-page {
+  padding: 20px;
+  text-align: center;
+  margin-top: 80px; /* Adjust based on the height of your fixed nav */
+}
+
+.menu-page h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.menu-section {
+  margin-bottom: 40px;
+}
+
+.menu-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #d2691e;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menu-item {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 10px;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Added transition for smooth effect */
+}
+
+.menu-item:hover {
+  transform: scale(1.05); /* Scale up the container */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Make the shadow more prominent */
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.menu-item h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.menu-item p {
+  font-size: 1em;
+  margin-bottom: 10px;
+}
+
+.menu-item .price {
+  font-size: 1.2em;
+  color: #d2691e;
+  margin-bottom: 10px;
+}
+
+.menu-item .buy-button {
+  display: inline-block;
+  background-color: #d2691e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.menu-item .buy-button:hover {
+  background-color: #a84f1e;
+}
+
+.more-items {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.more-items p {
+  font-size: 1.2em;
+  color: #4a4a4a;
 }

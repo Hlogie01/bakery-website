@@ -26,15 +26,15 @@ const AboutPage = () => (
       <div className="reviews">
         <div className="review">
           <p>"Absolutely the best bakery in town! The pastries are always fresh and delicious. Highly recommend!"</p>
-          <p><strong>- Emily R.</strong></p>
+          <p><strong>- Mnelisi M.</strong></p>
         </div>
         <div className="review">
           <p>"I love visiting Hlogi's Confectioneries. The staff is so friendly and the atmosphere is cozy. Their croissants are to die for!"</p>
-          <p><strong>- Michael T.</strong></p>
+          <p><strong>- Larreth J.</strong></p>
         </div>
         <div className="review">
           <p>"Great variety and everything tastes amazing. I've never been disappointed with anything I've tried here."</p>
-          <p><strong>- Sarah L.</strong></p>
+          <p><strong>- Yamukelwa M.</strong></p>
         </div>
       </div>
     </section>
