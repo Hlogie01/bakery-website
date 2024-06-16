@@ -1,7 +1,7 @@
 import React from 'react';
 import welcomeVideo from '../assets/videos/bakery.mp4';
-import pastryImage from '../assets/images/Almond & Cherry croissants.jpg';
-import chef1 from '../assets/images/bakery1.jpg';
+import pastryImage from '../assets/images/bakery2.jpg';
+import chef1 from '../assets/images/chef1.jpg';
 import chef2 from '../assets/images/bakery2.jpg';
 import chef3 from '../assets/images/bakery3.jpg';
 import '../App.css';
@@ -33,17 +33,17 @@ const HomePage = () => (
       <div className="chefs">
         <div className="chef">
           <img src={chef1} alt="Chef 1" />
-          <h3>Chef John</h3>
+          <h3>Chef Lehlogonolo</h3>
           <p>Pastry Master</p>
         </div>
         <div className="chef">
           <img src={chef2} alt="Chef 2" />
-          <h3>Chef Emma</h3>
+          <h3>Chef Shelly</h3>
           <p>Confectionery Specialist</p>
         </div>
         <div className="chef">
           <img src={chef3} alt="Chef 3" />
-          <h3>Chef Liam</h3>
+          <h3>Chef Lorreta</h3>
           <p>Baking Expert</p>
         </div>
       </div>
