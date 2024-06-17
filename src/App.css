@@ -1,6 +1,10 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap');
+
+
 /* Global Styles */
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Old Standard TT', serif;
   color: #4a4a4a;
   margin: 0;
   padding: 0;
@@ -23,7 +27,7 @@ body::before {
 }
 
 h1, h2, h3 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Old Standard TT', serif;
   color: #d2691e;
 }
 
