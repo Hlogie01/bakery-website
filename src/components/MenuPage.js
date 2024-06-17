@@ -17,23 +17,23 @@ import bananaNutMuffin from '../assets/images/muffin10 (1).jpg';
 // Sample menu items
 const menuItems = {
   cakes: [
-    { name: 'Chocolate Cake', description: 'Rich and moist chocolate cake', price: '$20', image: chocolateCake },
-    { name: 'Vanilla Cake', description: 'Light and fluffy vanilla cake', price: '$18', image: vanillaCake },
-    { name: 'Carrot Cake', description: 'Light and fluffy vanilla cake', price: '$18', image: carrotCake },
+    { name: 'Chocolate Cake', description: 'Rich and moist chocolate cake', price: 'R250.00', image: chocolateCake },
+    { name: 'Snickers Cheesecake', description: 'Light and fluffy Snickers cheesecake', price: 'R190.00', image: vanillaCake },
+    { name: 'Carrot Cake', description: 'Rich, delicious and fluffy carrot cake', price: 'R240.00', image: carrotCake },
   ],
   croissants: [
-    { name: 'Butter Croissant', description: 'Flaky and buttery croissant', price: '$3', image: butterCroissant },
-    { name: 'Chocolate Croissant', description: 'Croissant filled with rich chocolate', price: '$4', image: chocolateCroissant },
-    { name: 'Chocolate Croissant', description: 'Croissant filled with rich chocolate', price: '$4', image: chocCroissant },
+    { name: 'Chocolate Cream Croissant', description: 'Flaky and buttery chocolate croissant', price: 'R35.00', image: butterCroissant },
+    { name: 'Pistachio and Matcha Croissant', description: 'Croissant filled with matcha and pistachio', price: 'R35.00', image: chocolateCroissant },
+    { name: 'Raspberry Fruit Cruffin', description: 'Croissant filled with rich chocolate', price: 'R35.00', image: chocCroissant },
   ],
   cookies: [
-    { name: 'Chocolate Chip Cookie', description: 'Classic chocolate chip cookie', price: '$1.5', image: chocolateChipCookie },
-    { name: 'Oatmeal Raisin Cookie', description: 'Healthy oatmeal raisin cookie', price: '$1.5', image: oatmealRaisinCookie },
-    { name: 'Oatmeal Raisin Cookie', description: 'Healthy oatmeal raisin cookie', price: '$1.5', image: oatmealCookie },
+    { name: 'Coco Chocolate Cookie', description: 'Classic coco chocolate cookie', price: 'R19.00', image: chocolateChipCookie },
+    { name: 'Walnut Chocolate Cookie', description: 'Crunchy, delicious and rich cookie', price: 'R19.00', image: oatmealRaisinCookie },
+    { name: 'Chocolate truffle Cookie', description: 'laxurious flavored chocolate cookie', price: 'R19.00', image: oatmealCookie },
   ],
   muffins: [
-    { name: 'Blueberry Muffin', description: 'Muffin packed with fresh blueberries', price: '$2.5', image: blueberryMuffin },
-    { name: 'Banana Nut Muffin', description: 'Muffin with banana and crunchy nuts', price: '$2.5', image: bananaNutMuffin },
+    { name: 'Almonds and chocolate Muffin', description: 'Muffin packed with fresh almonds on top', price: '$23.00', image: blueberryMuffin },
+    { name: 'White chocolate and Vanilla Muffin', description: 'Classic chocolate and vanilla muffin', price: 'R23.00', image: bananaNutMuffin },
   ],
 };
 

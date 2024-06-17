@@ -148,7 +148,7 @@ footer p {
 /* Home Page Styles */
 .home-page h1 {
   text-align: center;
-  margin-top: 80px; /* Adjust based on the height of your fixed nav */
+  margin-top: 80px; 
   font-size: 2.5em;
 }
 
@@ -157,19 +157,19 @@ footer p {
   align-items: center;
   justify-content: center;
   margin: 20px auto;
-  max-width: 800px; /* Adjust the max-width for your layout */
+  max-width: 800px; 
 }
 
 video {
   border-radius: 8px;
-  width: 40%; /* Adjust the width of the video */
+  width: 40%; 
   height: auto;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 .menu-info {
   margin-left: 20px;
-  text-align: left; /* Change to left-align text */
+  text-align: left;
 }
 
 .menu-info p {
@@ -229,6 +229,47 @@ p {
   max-width: 800px;
 }
 
+.business-description {
+  text-align: center;
+  background-color: #f8e8d8;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+.business-description h2 {
+  font-size: 2em;
+  color: #d2691e;
+  margin-bottom: 10px;
+}
+
+.business-description p {
+  font-size: 1.2em;
+  color: #4a4a4a;
+  margin-bottom: 20px;
+}
+
+.read-more-button {
+  background-color: #d2691e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.read-more-button a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.read-more-button:hover {
+  background-color: #a84f1e;
+}
+
 /* Chefs Section Styles */
 .our-chefs {
   margin-top: 40px;
@@ -273,7 +314,7 @@ p {
 .menu-page {
   padding: 20px;
   text-align: center;
-  margin-top: 80px; /* Adjust based on the height of your fixed nav */
+  margin-top: 80px;
 }
 
 .menu-page h1 {
@@ -305,12 +346,12 @@ p {
   padding: 20px;
   width: 200px;
   text-align: center;
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Added transition for smooth effect */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
 }
 
 .menu-item:hover {
-  transform: scale(1.05); /* Scale up the container */
-  box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Make the shadow more prominent */
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
 }
 
 .menu-item img {
@@ -358,6 +399,80 @@ p {
 }
 
 .more-items p {
+  font-size: 1.2em;
+  color: #4a4a4a;
+}
+
+.contact-page {
+  padding: 20px;
+  max-width: 600px;
+  margin: 80px auto; 
+  background: rgba(255, 255, 255, 0.8); 
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.contact-page h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #d2691e;
+}
+
+.contact-page p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #4a4a4a;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  font-size: 1em;
+  margin-bottom: 5px;
+  display: block;
+  color: #d2691e;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #d2691e;
+}
+
+.submit-button {
+  background-color: #d2691e;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: #a84f1e;
+}
+
+.thank-you-message {
+  margin-top: 20px;
   font-size: 1.2em;
   color: #4a4a4a;
 }

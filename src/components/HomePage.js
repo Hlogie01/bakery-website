@@ -2,8 +2,6 @@ import React from 'react';
 import welcomeVideo from '../assets/videos/bakery.mp4';
 import pastryImage from '../assets/images/bakery2.jpg';
 import chef1 from '../assets/images/chef1.jpg';
-import chef2 from '../assets/images/bakery2.jpg';
-import chef3 from '../assets/images/bakery3.jpg';
 import '../App.css';
 
 const HomePage = () => (
@@ -36,17 +34,16 @@ const HomePage = () => (
           <h3>Chef Lehlogonolo</h3>
           <p>Pastry Master</p>
         </div>
-        <div className="chef">
-          <img src={chef2} alt="Chef 2" />
-          <h3>Chef Shelly</h3>
-          <p>Confectionery Specialist</p>
-        </div>
-        <div className="chef">
-          <img src={chef3} alt="Chef 3" />
-          <h3>Chef Lorreta</h3>
-          <p>Baking Expert</p>
-        </div>
       </div>
+    </div>
+    <div className="business-description">
+      <h2>About Our Business</h2>
+      <p>
+        At Hlogi's Confectioneries, we are dedicated to providing our customers with the finest pastries, crafted with passion and expertise. Our goal is to create delightful experiences with every bite.
+      </p>
+      <button className="read-more-button">
+        <a href="/about">Read More</a>
+      </button>
     </div>
   </div>
 );
