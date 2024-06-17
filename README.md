@@ -29,3 +29,5 @@ Make sure you have [Node.js](https://nodejs.org/en/download/) and npm installed 
 
    ```sh
    git clone https://github.com/your-username/hlogis-confectioneries.git
+
+use it wisely and reach out if you need help anywhere possible
