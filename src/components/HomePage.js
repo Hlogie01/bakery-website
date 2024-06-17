@@ -8,7 +8,7 @@ import '../App.css';
 
 const HomePage = () => (
   <div className="home-page">
-    <h1>Welcome to Hlogi's Confectioneries</h1>
+    <h1>Welcome to HLOGI'S CONFECTIONERIES</h1>
     <div className="video-menu-section">
       <video controls autoPlay muted loop>
         <source src={welcomeVideo} type="video/mp4" />
