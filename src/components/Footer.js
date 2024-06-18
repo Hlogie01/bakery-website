@@ -5,7 +5,7 @@ const Footer = () => (
     <div className="footer-content">
       <div className="footer-section">
         <h4>Contact Us</h4>
-        <p>Email: contact@bakery.com</p>
+        <p>Email: contact@Hlogiconfectioneries.com</p>
         <p>Phone: (+27) 111-2222</p>
       </div>
       <div className="footer-section">
@@ -18,7 +18,7 @@ const Footer = () => (
       </div>
       <div className="footer-section">
         <h4>Location</h4>
-        <p>123 Bakery Lane</p>
+        <p>24 Sesame Street</p>
         <p>Johannesburg, South Africa</p>
       </div>
     </div>
