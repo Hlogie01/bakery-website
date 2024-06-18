@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navigation = () => (
   <nav>
     <div className="nav-brand">
-      <h1>Hlogi's Confectioneries</h1>
+      <h1>HLOGI'S CONFECTIONERIES</h1>
     </div>
     <ul>
       <li><Link to="/">Home</Link></li>

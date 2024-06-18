@@ -32,7 +32,7 @@ const menuItems = {
     { name: 'Chocolate truffle Cookie', description: 'laxurious flavored chocolate cookie', price: 'R19.00', image: oatmealCookie },
   ],
   muffins: [
-    { name: 'Almonds and chocolate Muffin', description: 'Muffin packed with fresh almonds on top', price: '$23.00', image: blueberryMuffin },
+    { name: 'Almonds and chocolate Muffin', description: 'Muffin packed with fresh almonds on top', price: 'R23.00', image: blueberryMuffin },
     { name: 'White chocolate and Vanilla Muffin', description: 'Classic chocolate and vanilla muffin', price: 'R23.00', image: bananaNutMuffin },
   ],
 };
